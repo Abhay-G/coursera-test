@@ -1,0 +1,88 @@
+body {
+  margin: 0;
+}
+h1 {
+  text-align: center;
+  font-family: 'Amatic SC', cursive;
+  font-size: 3rem;
+  padding: 1.5% 0;
+  letter-spacing: 2px;
+}
+
+/* Can also be done with positioning relative and absolute but i like this better*/
+/*first make a div and set a margin*/
+.heading-container {
+  margin-left: 70%;
+}
+
+h2 {
+  text-align: center;      /* then align it at center of that div*/
+  letter-spacing: 2px;
+  margin-top: 0;
+  border: 1px solid;
+  border-color: black;
+  font-family: 'Roboto Condensed', sans-serif;
+  color: white;
+  font-weight: normal;
+}
+.chicken {
+  background-color: #ff847c;
+}
+
+.beef {
+  background-color: #e84a5f;
+}
+
+.sushi {
+  background-color: #383e56;
+}
+
+.row {
+  width: 100%;
+  margin: 0 1%;
+
+}
+
+.block {
+  background-color: #eedad1;
+  margin: 2% 1%;
+  box-sizing: border-box;
+  border-color: black;
+  border-style: solid;
+  border-width: 1px;
+}
+
+
+p {
+  width: 90%;
+  margin: auto;
+  padding-bottom: 10%;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  line-height: 1.5;
+}
+
+@media (min-width:992px) {
+  .col-lg-4 {
+    float: left;
+    width: 30%;
+  }
+}
+
+@media (min-width:768px) and (max-width:991px) {
+  .col-md-6 {
+    float: left;
+    width: 47%;
+  }
+
+  .col-md-12 {
+    float: left;
+    width: 96%;
+  }
+}
+@media (max-width:767px) {
+  .col-sm{
+    float: left;
+    width: 96%;
+  }
+}
