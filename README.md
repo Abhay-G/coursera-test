@@ -1,2 +1,3 @@
 # coursera-test
-coursera test repository
+This repository contains all the module assignment of coursera course.
+
